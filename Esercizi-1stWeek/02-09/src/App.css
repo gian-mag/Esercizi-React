@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.NavBrand {
+  width: 100px;
+  height: 55px;
+  background-color: #221f1f;
+}
+#navDropdown {
+  border: 1px solid gray;
+  border-radius: 0!important;
+  padding: 5px 10px!important;
+  font-size: 1em;
+  background-color: #221f1f!important;
+  color: white;
+}
+.dropdown-menu {
+  background-color: #343a40!important;
+}
+.dropdown-item {
+  color: white!important;
+}
+#TV {
+  background-color: #221f1f!important;
+}
+
+body {
+  background-color: #221f1f!important;
+}
+
+.marginCard {
+  margin: .3em 0 !important;
+  
+}
+
+.dimensions {
+  transition: transform 0.2s;
+}
+
+.dimensions:hover {
+  transform: scale(1.05);
+  z-index:999;
+}
+
+@media screen and (max-width: 991px) {
+  .dimensions {
+    width: 300px !important;
+    height: 500px !important;
+  }
+}
+@media screen and (min-width: 992px){
+.dimensions{
+width: 400px !important;
+height: 200px !important;
+}
+}
+
+a {
+  font-size: 14.2px!important;
+  color: #838383!important;
+}
+
+p {
+  margin-bottom: .2em!important;
+}
+
+p > a{
+  color: #838383!important;
+  font-size: 13px!important;
+}
