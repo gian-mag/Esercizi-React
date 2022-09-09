@@ -89,9 +89,7 @@ const WeatherApp = () => {
                                 />
 
                             </Form.Group>
-                            <Button variant="primary" type="submit">
-                                Submit
-                            </Button>
+
 
                         </Form>
 
