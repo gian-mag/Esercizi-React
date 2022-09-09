@@ -48,7 +48,7 @@ const WeatherApp = () => {
 
 
     const getWeather = async (e) => {
-
+        e.preventDefault()
         try {
             let response = await fetch(
                 `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=3c5b56745eb5d6e933d7fdd1908ab4c6&lang=it`

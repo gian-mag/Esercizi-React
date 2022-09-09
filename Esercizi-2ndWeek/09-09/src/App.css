@@ -65,6 +65,9 @@
 .carousel-control-prev-icon, .carousel-control-next-icon {
   display: none;
 }
-body {
-  height: 100vh;
+
+.container-fluid {
+  
+  height: 100vh!important;
+
 }
