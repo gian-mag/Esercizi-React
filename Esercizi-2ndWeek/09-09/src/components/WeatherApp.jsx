@@ -48,6 +48,7 @@ const WeatherApp = () => {
 
 
     const getWeather = async (e) => {
+        // se lo tolgo funziona il carosello.. useState ha quel problema delle asincrone
         e.preventDefault()
         try {
             let response = await fetch(
