@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.containerTot {
+  width: 100%!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  flex-direction: column!important;
+}
+.containerMax {
+  width: 100%!important;
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  flex-direction: column!important;
+}
+.articleCard {
+  margin: 1em 0;
+}
+
+.footerMan {
+  height: 5vh;
+  background-color: #1976D2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerMan > p {
+  text-align: center;
+  color: white;
+}
+.MuiButton-root {
+  margin : 10px 0!important;
+}
+
+a {
+  color:white!important;
+  text-decoration: none;
+}
